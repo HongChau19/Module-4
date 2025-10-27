@@ -1,6 +1,6 @@
-package org.example.springcustomermanagementrestful.service;
+package org.example.service;
 
-import org.example.springcustomermanagementrestful.model.Customer;
+import org.example.model.Customer;
 
 import java.util.Optional;
 

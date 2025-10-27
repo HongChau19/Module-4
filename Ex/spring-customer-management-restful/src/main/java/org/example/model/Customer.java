@@ -1,4 +1,4 @@
-package org.example.springcustomermanagementrestful.model;
+package org.example.model;
 
 import jakarta.persistence.*;
 

@@ -23,10 +23,6 @@ tasks.withType(JavaCompile) {
 
 dependencies {
     compileOnly('jakarta.servlet:jakarta.servlet-api:6.1.0')
-    implementation('org.glassfish.jersey.containers:jersey-container-servlet:4.0.0-M1')
-    implementation('org.glassfish.jersey.media:jersey-media-json-jackson:4.0.0-M1')
-    implementation('org.glassfish.jersey.inject:jersey-cdi2-se:4.0.0-M1')
-    implementation('org.jboss.weld.se:weld-se-core:6.0.0.Beta4')
 
     implementation group: 'org.springframework', name: 'spring-webmvc', version: '6.0.13'
     implementation group: 'org.springframework', name: 'spring-orm', version: '6.0.13'
@@ -36,7 +32,6 @@ dependencies {
     implementation("org.springframework.data:spring-data-jpa:3.4.2")
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.15.2'
     compileOnly group: 'jakarta.servlet', name: 'jakarta.servlet-api', version: '6.0.0'
-
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")

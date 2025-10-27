@@ -1,7 +1,7 @@
-package org.example.springcustomermanagementrestful.controller;
+package org.example.controller;
 
-import org.example.springcustomermanagementrestful.model.Customer;
-import org.example.springcustomermanagementrestful.service.ICustomerService;
+import org.example.model.Customer;
+import org.example.service.ICustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

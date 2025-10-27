@@ -1,7 +1,7 @@
-package org.example.springcustomermanagementrestful.service;
+package org.example.service;
 
-import org.example.springcustomermanagementrestful.model.Customer;
-import org.example.springcustomermanagementrestful.repository.ICustomerRepository;
+import org.example.model.Customer;
+import org.example.repository.ICustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

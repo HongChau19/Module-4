@@ -1,4 +1,4 @@
-package org.example.springcustomermanagementrestful.configuration;
+package org.example.configuration;
 
 import jakarta.servlet.Filter;
 import org.springframework.web.filter.CharacterEncodingFilter;
